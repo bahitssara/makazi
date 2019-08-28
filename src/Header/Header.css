@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+ .header-links {
+    float: right;
+    margin-top:25px;
+
+}
+
+.header-links a{
+    padding: 5px;
+}
+
+.logo {
+    width: 10%;
+    margin: 0;
+    padding: 10px;
+}
+
