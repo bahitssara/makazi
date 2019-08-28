@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 export default function header(){
     return(
-        <header class='header'>
+        <header className='header'>
             <img className='logo' alt='logo' src='https://www.childhood.org.au/app/uploads/2017/07/ACF-logo-placeholder.png' />
             <ul className='header-links'>
                 <Link to='our-story'>Our Story</Link>
