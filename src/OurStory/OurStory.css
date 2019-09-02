@@ -2,7 +2,6 @@
     padding: 100px;
 }
 .our-story-text {
-    width: 60%;
     margin:auto;
 }
 
@@ -11,3 +10,8 @@
         width: 90%;
     }
 }
+
+@media screen and (min-width: 765px) {
+
+}
+

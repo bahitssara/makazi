@@ -1,0 +1,17 @@
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.inspiration h3 {
+    margin: auto;
+    padding: 40px;
+    font-size: 75px;
+}
+
+.inspiration-photo-wheel {
+    width: 50%;
+    margin: auto;
+}

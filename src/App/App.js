@@ -5,6 +5,7 @@ import IntroPage from '../IntroPage/IntroPage'
 // import footer from '../Footer/Footer';
 import Impact from '../Impact/Impact';
 import OurStory from '../OurStory/OurStory';
+import Inspiration from '../Inspiration/Inspiration';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' component={IntroPage} />
         <Route path='/' component={Impact} />
         <Route path='/' component={OurStory} />
+        <Route path='/' component={Inspiration} />
         {/* <Route path='/' component={footer} /> */}
     </div>
   );
