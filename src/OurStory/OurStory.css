@@ -1,0 +1,13 @@
+.our-story {
+    padding: 100px;
+}
+.our-story-text {
+    width: 60%;
+    margin:auto;
+}
+
+@media screen and (min-width: 320px) {
+    .our-story-text {
+        width: 90%;
+    }
+}

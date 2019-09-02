@@ -9,7 +9,6 @@
  .header-links {
     float: right;
     margin-top:25px;
-
 }
 
 .header-links a{
@@ -21,4 +20,19 @@
     margin: 0;
     padding: 10px;
 }
+
+
+@media screen and (min-width: 320px) {
+    .header-links {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 765px) {
+    .header-links {
+        font-size: 20px;
+    }
+}
+
 
