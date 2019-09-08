@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import animateScrollTo from 'animated-scroll-to';
 import {Link} from 'react-router-dom';
+import Logo from './GreenLogo.png';
 
 
 class Header extends React.Component{
@@ -17,10 +18,17 @@ class Header extends React.Component{
         animateScrollTo(document.querySelector('.inspiration'))
      }
 
+     topScroll() {
+        animateScrollTo(0)
+
+     }
+
     render(){
         return(
             <header className='header'>
-                <img className='logo' alt='logo' src='https://www.childhood.org.au/app/uploads/2017/07/ACF-logo-placeholder.png' />
+                <Link to='/' onClick={this.topScroll}>
+                    <img className='logo' alt='logo' src={Logo} />
+                </Link>
                 <ul className='header-links'>
                     <Link to='/impact' onClick={this.impactScroll}>Impact</Link>
                     <Link to='/our-story' onClick={this.ourStoryScroll}>Our Story</Link>

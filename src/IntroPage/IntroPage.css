@@ -1,20 +1,45 @@
+* {
+    color: white;
+    
+}
+
 .intro {
     margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#myVideo {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+  }
+
+.intro-page {
+    margin-top:200px;
 }
 
 .intro-button{
     float: right;
-    margin-right: 100px;
-    border: 1px solid;
-    width: 150px;
-    height: 75px;
+    margin-right:125px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    background-color:RGBA(40,80,37,0.64);
 }
 
 .intro-button:hover {
-    color: white;
-    background-color: grey;
+    color: #9d8465;
+    cursor: pointer;
 }
 
 .intro-header {
     padding: 120px;
+    font-size: 50px;
 }
