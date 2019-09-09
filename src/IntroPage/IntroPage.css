@@ -1,6 +1,5 @@
 * {
     color: white;
-    
 }
 
 .intro {
@@ -34,7 +33,7 @@
     background-color:RGBA(40,80,37,0.64);
 }
 
-.intro-button:hover {
+.intro-link:hover{
     color: #9d8465;
     cursor: pointer;
 }

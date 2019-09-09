@@ -17,6 +17,12 @@
     text-decoration: none;
 }
 
+.header-links a:hover{
+    cursor: pointer;
+    background-color:RGBA(40,80,37,0.64);
+    border-radius: 5px;
+}
+
 .logo {
     width: 10%;
     margin: 0;

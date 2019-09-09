@@ -12,11 +12,11 @@ class IntroPage extends React.Component{
     render(){
         return (
             <section className='intro'>
-                <video autoPlay muted id='myVideo'>
+                <video autoPlay loop muted id='myVideo'>
                     <source src={MakaziVideo} type='video/mp4' />
                 </video>
                 <div className='intro-page'>
-                <Link to='inspiration'>
+                <Link to='inspiration' className='intro-link'>
                     <button onClick={this.inspirationScroll} className='intro-button'>Why we do it</button>
                 </Link>
                     <h1 className='intro-header'>Creating opportunities<br/>One home at a time</h1>
