@@ -16,7 +16,7 @@ class IntroPage extends React.Component{
                     <source src={MakaziVideo} type='video/mp4' />
                 </video>
                 <div className='intro-page'>
-                <Link to='inspiration' className='intro-link'>
+                <Link to='/' className='intro-link'>
                     <button onClick={this.inspirationScroll} className='intro-button'>Why we do it</button>
                 </Link>
                     <h1 className='intro-header'>Creating opportunities<br/>One home at a time</h1>

@@ -30,10 +30,10 @@ class Header extends React.Component{
                     <img className='logo' alt='logo' src={Logo} />
                 </Link>
                 <ul className='header-links'>
-                    <Link to='/impact' onClick={this.impactScroll}>Impact</Link>
-                    <Link to='/our-story' onClick={this.ourStoryScroll}>Our Story</Link>
-                    <Link to='/inspiration' onClick={this.inspirationScroll}>Inspiration</Link>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/' onClick={this.impactScroll}>Impact</Link>
+                    <Link to='/' onClick={this.ourStoryScroll}>Our Story</Link>
+                    <Link to='/' onClick={this.inspirationScroll}>Inspiration</Link>
+                    <Link to='/'>Contact</Link>
                 </ul>
             </header>
         )
