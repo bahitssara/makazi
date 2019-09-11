@@ -5,14 +5,12 @@
     -o-background-size: cover;
     background-size: cover;
     height: 1000px;
-    margin-top:-50px;
 }
 
 .impact-full {
-    margin-top: 50px;
-    padding: 200px;
-    padding-top:-100px;
-    margin-right: 400px;
+    margin-right: 40%;
+    margin-left: 20px;
+    position: fixed;
 }
 
 .impact-full h2 {
