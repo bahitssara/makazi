@@ -1,0 +1,31 @@
+.our-story-full {
+    background: url(./indiaslums.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+.our-story-text-full {
+    position: fixed;
+    margin: 10%;
+}
+
+.our-story-header-full {
+    font-size: 75px;
+}
+
+.our-story-full h3 {
+    background-color:RGBA(40,80,37,0.70);
+    width: 200px;
+    padding:20px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.our-story-full p {
+    background-color:RGBA(157,132,101,.8);
+    padding: 25px;
+    border-radius: 10px;
+}
