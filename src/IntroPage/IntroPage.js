@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom';
 import MakaziVideo from './MakaziWebBackground.mp4'
 
 class IntroPage extends React.Component{
-    inspirationScroll(){
-        animateScrollTo(document.querySelector('.inspiration'))
+    impactScroll(){
+        animateScrollTo(document.querySelector('.impact'))
      }
 
     render(){
@@ -17,7 +17,7 @@ class IntroPage extends React.Component{
                 </video>
                 <div className='intro-page'>
                 <Link to='/' className='intro-link'>
-                    <button onClick={this.inspirationScroll} className='intro-button'>Why we do it</button>
+                    <button onClick={this.impactScroll} className='intro-button'>Why we do it</button>
                 </Link>
                     <h1 className='intro-header'>Creating opportunities<br/>One home at a time</h1>
                 </div>

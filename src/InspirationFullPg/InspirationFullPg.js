@@ -1,13 +1,17 @@
 import React from 'react';
 import './InspirationFullPg.css';
+import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
 
 
 export default function inspirationFullPg(){
     return(
         <div className='inspiration-full'>
-            <h3 className='inspo-header'>Inspiration</h3>
-            <p className='inspiration-text'>SandPuzzle House is a company that aims to provide the best workable solution to the worlds housing crisis by providing a mobile structure with all the characteristics and features of a permanent structure.</p>
-            {/* <img src={InspirationImg}className='inspiration-photo-wheel' alt='impact'/> */}
+            <div className='inspiration-text-full'><br/>
+                <span className='inspiration-span'>Inspiration</span>
+                <div className='photo-inspo'>
+                <PhotoCarousel />
+                </div>
+            </div>
         </div>
     )
 }

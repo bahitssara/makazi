@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     margin-top: 60px;
 }
 
@@ -10,6 +10,7 @@
     margin: auto;
     padding: 20px;
     font-size: 75px;
+    text-shadow: 2px 2px grey;
 }
 
 .inspiration-text {
@@ -19,6 +20,8 @@
     background-color:RGBA(236,225,201,0.56);
     padding:50px;
     border-radius:40px;
+    text-shadow: 1px 1px grey;
+    font-size: 20px;
 }
 
 .inspo-link {

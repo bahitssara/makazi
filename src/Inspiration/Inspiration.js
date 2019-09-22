@@ -1,6 +1,6 @@
 import React from 'react';
 import './Inspiration.css';
-import InspirationImg from './inspiration.jpg';
+// import InspirationImg from './inspiration.jpg';
 import {Link} from 'react-router-dom';
 
 
@@ -12,7 +12,7 @@ export default function inspiration(){
             <Link to='/inspiration' className='inspo-link'>See what inspires us</Link>
             </p>
             
-            <img src={InspirationImg}className='inspiration-photo-wheel' alt='impact'/>
+            {/* <img src={InspirationImg}className='inspiration-photo-wheel' alt='impact'/> */}
         </div>
     )
 }
