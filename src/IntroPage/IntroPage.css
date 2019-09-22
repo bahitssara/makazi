@@ -42,3 +42,8 @@
     padding: 120px;
     font-size: 50px;
 }
+
+.arrow-scroll {
+    margin-top: 150px;
+    display: flex;
+}

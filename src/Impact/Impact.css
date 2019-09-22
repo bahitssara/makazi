@@ -56,6 +56,11 @@
         margin-top:100px;
         width: 50%;
     }
+
+    .arrow-scroll-2 {
+        display: flex;
+        margin-top:250px;
+    }
 }
 
 
