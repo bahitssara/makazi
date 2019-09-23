@@ -6,17 +6,17 @@ import Logo from './GreenLogo.png';
 
 
 class Header extends React.Component{
-    impactScroll() {
-        animateScrollTo(document.querySelector('.impact'))
-     }
+    // impactScroll() {
+    //     animateScrollTo(document.querySelector('.impact'))
+    //  }
 
-     ourStoryScroll(){
-        animateScrollTo(document.querySelector('.our-story'))
-     }
+    //  ourStoryScroll(){
+    //     animateScrollTo(document.querySelector('.our-story'))
+    //  }
 
-     inspirationScroll(){
-        animateScrollTo(document.querySelector('.inspiration'))
-     }
+    //  inspirationScroll(){
+    //     animateScrollTo(document.querySelector('.inspiration'))
+    //  }
 
      topScroll() {
         animateScrollTo(0)
@@ -30,9 +30,9 @@ class Header extends React.Component{
                     <img className='logo' alt='logo' src={Logo} />
                 </Link>
                 <ul className='header-links'>
-                    <Link to='/' onClick={this.impactScroll}>Impact</Link>
-                    <Link to='/' onClick={this.ourStoryScroll}>Our Story</Link>
-                    <Link to='/' onClick={this.inspirationScroll}>Inspiration</Link>
+                    <Link to='/impact'>Impact</Link>
+                    <Link to='/ourstory'>Our Story</Link>
+                    <Link to='/inspiration'>Inspiration</Link>
                     <Link to='/'>Contact</Link>
                 </ul>
             </header>

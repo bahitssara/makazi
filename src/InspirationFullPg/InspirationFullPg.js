@@ -9,7 +9,7 @@ export default function inspirationFullPg(){
             <div className='inspiration-text-full'><br/>
                 <span className='inspiration-span'>Inspiration</span>
                 <div className='photo-inspo'>
-                <PhotoCarousel />
+                {/* <PhotoCarousel /> */}
                 </div>
             </div>
         </div>
