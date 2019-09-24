@@ -8,7 +8,6 @@
   #more-arrows {
     width: 75px;
     height: 65px;
-    margin: auto;
   }
   #more-arrows:hover polygon {
     fill: #FFF;
@@ -29,5 +28,12 @@
   }
   polygon.arrow-top {
     opacity: 0.5;
+  }
+
+  @media screen and (min-width: 365px) {
+    .content {
+      display: flex;
+      justify-content: center;
+    }
   }
   

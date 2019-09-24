@@ -21,7 +21,7 @@ class OurStory extends React.Component {
                 <Link to='/' onClick={this.inspirationScroll} className='arrow-scroll-3'>
                     <Arrow />
                 </Link>
-            </section>
+            </section> 
         )
     }
 }

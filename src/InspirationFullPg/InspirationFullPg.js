@@ -1,6 +1,5 @@
 import React from 'react';
 import './InspirationFullPg.css';
-import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
 
 
 export default function inspirationFullPg(){
@@ -9,7 +8,6 @@ export default function inspirationFullPg(){
             <div className='inspiration-text-full'><br/>
                 <span className='inspiration-span'>Inspiration</span>
                 <div className='photo-inspo'>
-                {/* <PhotoCarousel /> */}
                 </div>
             </div>
         </div>

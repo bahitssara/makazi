@@ -28,7 +28,7 @@ class IntroPage extends React.Component {
             </section>
         )
     }
-
+ 
 }
 
 export default IntroPage;

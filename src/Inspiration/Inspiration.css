@@ -9,19 +9,19 @@
 .inspiration h3 {
     margin: auto;
     padding: 20px;
-    font-size: 75px;
+    font-size: 50px;
     text-shadow: 2px 2px grey;
 }
 
 .inspiration-text {
-    margin-left: 200px;
-    margin-right:200px;
+    margin: auto;
     text-align: center;
-    background-color:RGBA(236,225,201,0.56);
+    background-color:RGBA(236,225,201,0.9);
     padding:50px;
     border-radius:40px;
     text-shadow: 1px 1px grey;
     font-size: 20px;
+    width: 50%;
 }
 
 .inspo-link {
@@ -31,13 +31,43 @@
     font-size: 20px;
 }
 
-.inspo-link:hover {
+/* .inspo-link:hover {
     background-color:RGBA(40,80,37,0.64);
     border-radius: 10px;
     padding: 15px;
-}
+} */
 
 .inspiration-photo-wheel {
-    width: 35%;
     margin: auto;
+}
+
+
+@media screen and (min-width: 320px) {
+    .inspiration h3 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    .inspiration-text {
+        width: 65%;
+        font-size: 15px;
+    }
+
+    .inspiration-photo-wheel {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 765px) {
+}
+
+@media screen and (min-width: 1000px) {
+    .inspiration h3 {
+        font-size: 45px;
+    }
+
+    .inspiration-text {
+        width: 65%;
+        font-size: 20px;
+    }
 }

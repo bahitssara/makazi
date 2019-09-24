@@ -1,24 +1,58 @@
-.impact-page {
-    background: url(./background.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 1000px;
-}
 
-.impact-full {
-    margin-right: 40%;
-    margin-left: 20px;
-    position: fixed;
-}
-
-.impact-full h2 {
-    margin-top: 200px;
-    font-size: 50px;
-}
 .impact-full p{
-    background-color:RGBA(40,80,37,0.70);
+    background-color:RGBA(40,80,37,0.9);
     padding: 25px;
     border-radius: 10px;
+    font-size: 20px;
 }
+
+@media screen and (min-width: 360px) {
+    .impact-full {
+        margin-right: 5px;
+        margin-left: 5px;
+        position: fixed;
+    }
+
+    .impact-full h2 {
+        margin-top: 65px;
+        font-size: 35px;
+        text-shadow: 2px 2px RGBA(40,80,37,0.70);
+    }
+
+    .impact-full p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .impact-page {
+        background: url(./background.jpg) no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    .impact-full {
+        margin-right: 40%;
+        margin-left: 20px;
+        position: fixed;
+    }
+    
+    .impact-full h2 {
+        margin-top: 200px;
+        font-size: 60px;
+        text-shadow: 2px 3px RGBA(40,80,37,0.70);
+    }
+
+    .impact-full p {
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+}
+

@@ -4,12 +4,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: fixed;
     height: 1000px;
-    overflow: auto;
 }
 
 .our-story-text-full {
-    position: fixed;
     overflow: auto;
     margin: 10%;
 }
@@ -47,13 +46,12 @@
     }
 
     .our-story-full p {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width: 765px) {
     .our-story-text-full {
-        position: fixed;
         margin: 10%;
     }
     
