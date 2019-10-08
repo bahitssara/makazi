@@ -14,13 +14,42 @@
     font-size: 20px;
 }
 
+.impact-list {
+    flex-wrap: wrap;
+}
+
+.main-list {
+    background-color:RGBA(40,80,37,0.9);
+}
+
+.solution-link {
+    margin-left: 175px;
+}
+
+.solution-button {
+    background-color:RGBA(40,80,37,0.9);
+    width: 200px;
+    height: 150px;
+    border: none;
+    font-size: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.solution-button:hover {
+    background-color: azure;
+    color: RGBA(40,80,37,0.9)
+}
+
 @media screen and (min-width: 360px) {
     .impact-page {
-        height: 150%;
+        height: 300%;
+        display: flex;
+        flex-wrap: wrap;
     }
     .impact-full {
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
         padding-top: 100px; 
     }
 
@@ -33,18 +62,37 @@
     .impact-full p {
         font-size: 14px;
     }
+
+    .impact-list {
+        width: 90%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .solution-h3 {
+        font-size: 30px;
+        text-shadow: 2px 2px RGBA(40,80,37,0.70);
+    }
+
+    .main-list {
+        border-radius: 10px;
+        padding: 50px;
+    }
+
+    .solution-button {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 765px) {
     .impact-page {
-        height: 125%;
+        height: 300%;
     }
 
     .impact-full {
-        margin-right: 40%;
+        width: 45%;
         margin-left: 20px;
         padding-top: 0px; 
-
     }
     
     .impact-full h2 {
@@ -55,7 +103,31 @@
 
     .impact-full p {
         font-size: 20px;
+    } 
+
+    .solution-h3 {
+        display: none;
+    }
+
+    .solution-button {
+        display: block;
+        margin-left: 175px;
 
     }
-}
 
+    .impact-list {
+        justify-content: flex-end;
+        width: 45%;
+        height: 20%;
+        padding-top: 200px; 
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+    }
+
+    .main-list {
+        height: 400px;
+        padding-top: 100px;
+        margin-top: 600px;
+    }
+}
