@@ -9,11 +9,11 @@ export default function OurStoryFullPg(){
             <h2 className='our-story-header-full'>Our Story</h2>
             <h3>Hein de Waal – Owner</h3>
             <p>
-            Hein was born and raised in South Africa and after graduating from High School, studied Industrial Engineering at the University of Pretoria. Hein joined the military in 2005 and travelled extensively through Africa, continuing his travels even after leaving the service. During this time, he not only witnessed poverty and hardships, he also lived in some of these rural and remote communities.
-            
-            This gave him a unique perspective on the daily struggles, real life issues and actual needs of these communities. Whilst working for a large Engineering firm in South Africa, he had the privilege of spending even more time in war-ravaged Angola, building houses in an area devastated by the ongoing conflict. This further motivated him to find a solution to the world’s housing crisis and to find a better, faster, cheaper way of providing more than just another “tent”.
+            Hein was born and raised in Africa with having the opportunity to experience first hand the real needs and requirements of people in third world countries, low income and remote communities, and people living in the aftermath of war and conflict. This ignited a drive and desire to find a practical and workable solution to one of the world’s biggest issues. 
+            <br/><br/>
+            Seeing a young girl outside a dilapidated hut in a small African village on a cold and smoky morning made him realize that her options were severely limited by her environment and that she will most likely never get to achieve the possible greatness she might have been capable of. Even though she might have had the capacity to find the cure for cancer or to be the first person to land on Mars, her skills and talents will be wasted by having to spend hours upon hours fetching drinkable water for her family or carving out a meagre existence in a cruel and unforgiving world. Instead of having the opportunity to study and excel, she will be doomed to a life of survival and uncertainty. Looking at what was offered as possible options today, it soon became clear that most designs and products only addressed some of the most basic requirements, like keeping the rain off their backs. Little or no attention was given to the more important aspects to turn these low-cost temporary ideas into real livable long term solutions, addressing every design criteria needed to provide a longer-term real life and workable solution. And so Sand Puzzle was born.
             </p>
             </div>
-        </section>
+        </section> 
     )
 }

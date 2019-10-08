@@ -4,12 +4,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: fixed;
-    height: 1000px;
+    position: absolute; 
 }
-
+ 
 .our-story-text-full {
-    overflow: auto;
     margin: 10%;
 }
 
@@ -35,6 +33,10 @@
 }
 
 @media screen and (min-width: 320px) {
+    .our-story-full {
+        height: 100%;
+    }
+    
     .our-story-header-full {
         font-size: 35px;
         margin: 5%;
@@ -51,6 +53,10 @@
 }
 
 @media screen and (min-width: 765px) {
+    .our-story-full {
+        height: 150%;
+    }
+
     .our-story-text-full {
         margin: 10%;
     }
@@ -79,6 +85,6 @@
     }
     .our-story-full p {
         padding: 10px;
-        font-size: 25px;
+        font-size: 23px;
     }
 }

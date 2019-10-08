@@ -67,14 +67,24 @@
     #myVideo {
         display: none;
     }
-    body {
+
+    #mobile-background {
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: none;
+        z-index: -100;
+    }
+    /* .intro {
         background: url('mobile3.jpg') no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
-    }
+    } */
 }
 
 @media screen and (min-width: 365px) {
@@ -98,7 +108,10 @@
     }
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 760px) {
+    #mobile-background {
+        display: none;
+    }
     .intro {
         margin-top: 350px;
         margin-bottom: 350px;
