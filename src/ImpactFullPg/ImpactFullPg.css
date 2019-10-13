@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 360px) {
     .impact-page {
-        height: 300%;
+        height: 500%;
         display: flex;
         flex-wrap: wrap;
     }
