@@ -22,7 +22,8 @@ class IntroPage extends React.Component {
                     <Link to='/' className='intro-link'>
                         <button onClick={this.impactScroll} className='intro-button'>Why we do it</button>
                     </Link>
-                    <h1 className='intro-header'>Creating opportunities<br />One home at a time</h1>
+                    {/* <h1 className='makazi-header'>Makazi Enterprises</h1>  */}
+                    <h2 className='intro-header'>Creating opportunities<br />One home at a time</h2>
                 </div>
                 <Link to='/' onClick={this.impactScroll} className='arrow-scroll'>
                     <Arrow />

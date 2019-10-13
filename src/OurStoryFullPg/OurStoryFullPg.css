@@ -14,6 +14,7 @@
 .our-story-header-full {
     font-size: 85px;
     text-shadow: 3px 3px RGBA(40,80,37,0.70);
+    font-family: 'Vollkorn SC', serif;
 }
 
 .our-story-full h3 {
@@ -27,6 +28,7 @@
 
 .our-story-full p {
     background-color:RGBA(157,132,101,.9);
+    font-family: 'Montserrat', sans-serif;
     padding: 25px;
     border-radius: 10px;
     font-size: 20px;
@@ -37,6 +39,7 @@
     text-shadow: 2px 3px RGBA(40,80,37,0.70);
     border-radius: 5px;
     text-decoration: underline;
+    font-family: 'Vollkorn SC', serif;
 }
 
 @media screen and (min-width: 320px) {
@@ -130,6 +133,6 @@
 
 @media screen and (min-width: 1400px) {
     .our-story-full {
-        height: 165%;
+        height: 180%;
     }
 }

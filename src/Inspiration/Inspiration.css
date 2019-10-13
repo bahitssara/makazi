@@ -16,12 +16,14 @@
 .inspiration-text {
     margin: auto;
     text-align: center;
-    background-color:RGBA(236,225,201,0.9);
+    /* background-color:RGBA(236,225,201,0.9); */
+    background-color: RGBA(156,132,101,.7);
     padding:50px;
     border-radius:40px;
     text-shadow: 1px 1px grey;
     font-size: 20px;
     width: 50%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inspo-link {

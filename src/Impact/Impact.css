@@ -3,11 +3,21 @@
 }
 
 .impact-text {
-    background-color:RGBA(236,225,201,0.9);
+    /* background-color:RGBA(236,225,201,0.9); */
+    background-color: RGBA(156,132,101,.7);
     padding:30px;
     border-radius:40px;
     text-shadow: 1px 1px grey;
     font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.impact-header {
+    font-family: 'Vollkorn SC', serif;
+}
+
+.impact a {
+    font-family: 'Vollkorn SC', serif;
 }
 
 @media screen and (min-width: 320px) {
@@ -17,7 +27,7 @@
     }
 
     .arrow-scroll-2 {
-        display: flex;
+        display: flex; 
         justify-content: center;
         margin-top:60px;
         margin-left: 50px;

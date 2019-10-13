@@ -3,7 +3,13 @@
 }
 .our-story-text {
     margin:auto;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.our-story-header, h3, a {
+    font-family: 'Vollkorn SC', serif;
+}
+
 
 @media screen and (min-width: 320px) {
     .our-story {
@@ -12,7 +18,8 @@
     }
 
     .our-story-text {
-        background-color:RGBA(236,225,201,0.9);
+        /* background-color:RGBA(236,225,201,0.9); */
+        background-color: RGBA(156,132,101,.7);
         padding:10px;
         border-radius:40px;
         text-shadow: 1px 1px grey;

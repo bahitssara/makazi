@@ -7,11 +7,16 @@
     position: absolute; 
 }
 
+.impact-header-main {
+    font-family: 'Vollkorn SC', serif;
+}
+
 .impact-full p{
     background-color:RGBA(40,80,37,0.9);
     padding: 25px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .impact-list {
@@ -24,16 +29,18 @@
 
 .solution-link {
     margin-left: 175px;
+    text-decoration: none;
 }
 
 .solution-button {
     background-color:RGBA(40,80,37,0.9);
-    width: 200px;
+    width: 230px;
     height: 150px;
     border: none;
     font-size: 40px;
     border-radius: 45px;
     cursor: pointer;
+    font-family: 'Vollkorn SC', serif;
 }
 
 .solution-button:hover {
@@ -67,6 +74,7 @@
         width: 90%;
         margin: auto;
         margin-top: 0px;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .solution-h3 {
@@ -102,7 +110,7 @@
     }
 
     .impact-full p {
-        font-size: 20px;
+        font-size: 18px;
     } 
 
     .solution-h3 {
@@ -125,7 +133,7 @@
     }
 
     .main-list {
-        height: 525px;
+        height: 600px;
         padding-top: 10px;
         margin-top: 600px;
     }
@@ -179,7 +187,7 @@
     }
 
     .main-list {
-        height: 250px;
+        height: 265px;
         padding-top: 10px;
         margin-top: 500px;
     }
