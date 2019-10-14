@@ -26,7 +26,7 @@ class Header extends React.Component{
                     <Link to='/impact'>Impact</Link>
                     <Link to='/ourstory'>Our Story</Link>
                     {/* <Link to='/' onClick={this.inspirationScroll}>Inspiration</Link> */}
-                    <Link to='/'>Contact</Link>
+                    <a href='mailto:hein@makazienterprises.com'>Contact</a>
                 </ul>
             </header>
         )
