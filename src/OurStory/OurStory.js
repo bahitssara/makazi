@@ -16,7 +16,7 @@ class OurStory extends React.Component {
                 <div className='our-story-text'>
                     <h2 className='our-story-header'>Our Story</h2>
                     <h3>Hein de Waal – Owner</h3>
-                    Hein was born and raised in Africa with having the opportunity to experience first hand the real needs and requirements of people in third world countries, low income and remote communities, and people living in the aftermath of war and conflict. This ignited a drive and desire to find a practical and workable solution to one of the world’s biggest issues. <Link to='/ourstory'>Read More</Link>
+                    Born and raised in Africa, Hein had the opportunity to experience first hand the real needs and requirements of people in third world countries, low income and remote communities, and people living in the aftermath of war and conflict. This ignited a drive and desire to find a practical and workable solution to one of the world’s biggest issues. <Link to='/ourstory'>Read More</Link>
                 </div>
                 <Link to='/' onClick={this.inspirationScroll} className='arrow-scroll-3'>
                     <Arrow />
