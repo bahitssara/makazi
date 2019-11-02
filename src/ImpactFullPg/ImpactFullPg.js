@@ -66,7 +66,7 @@ class ImpactFullPg extends React.Component{
                                 <li>Ease of expanding existing strctures</li>
                                 <li>Withstanding extreme weather elements</li>
                                 <li>Safe and secure</li>
-                                <li>Built resistant</li>
+                                <li>Bullet resistant</li>
                                 <li>Fire resistant</li>
                                 <li>No skilled labor required to erect</li>
                                 <li>No special tools required</li>
