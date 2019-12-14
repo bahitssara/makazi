@@ -63,6 +63,7 @@
     background-color:RGBA(40,80,37,0.9);
     width: 300px;
     padding:10px;
+    padding-left: 25px;
     margin: auto;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -127,6 +128,11 @@
 }
 
 @media screen and (min-width: 1000px) {
+    .max {
+        display: flex;
+        width: 100%;
+    }
+
     .impact-page {
         display: flex;
         height: 120%;
@@ -137,7 +143,7 @@
     }
 
     .impact-full {
-        margin-top: 200px;
+        margin-top: 300px;
         width: 400px;
         margin-left: 20px;
         padding-top: 0px; 
@@ -148,7 +154,7 @@
     }
 
     .impact-list {
-        margin-top: 200px;
+        margin-top: 300px;
         margin-right: 45px;
     }
 
@@ -158,7 +164,13 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
+    .max {
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+    }
+
     .impact-full {
         margin-left: 150px;
 
@@ -169,5 +181,7 @@
     .main-list {
         height: 350px;
         padding-top: 10px;
+        width: 500px;
+        padding-left: 30px;
     }
 }
