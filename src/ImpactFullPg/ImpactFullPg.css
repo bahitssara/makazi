@@ -5,6 +5,10 @@
     -o-background-size: cover;
     background-size: cover;
     position: absolute; 
+    width: 120%;
+}
+
+.max {
     width: 100%;
 }
 
@@ -135,7 +139,7 @@
 
     .impact-page {
         display: flex;
-        height: 120%;
+        height: 125%;
     }
     
     .impact-header-main {
